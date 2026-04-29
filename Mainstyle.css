@@ -109,7 +109,9 @@ button, input[type="submit"], .btn {
     font-size: 0.9rem;
     font-weight: 500;
 }
-
+button:hover, .btn:hover {
+    background: #0AB68B;
+}
 .facilities{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
