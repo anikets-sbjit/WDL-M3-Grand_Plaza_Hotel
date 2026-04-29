@@ -48,57 +48,100 @@
         <p class="text-muted">Simple • Fast • Secure Booking</p>
     </div>
 
-    <form> 
-        
-        <fieldset>
-            <legend><b><font color="#028174">Personal Details</font></b></legend>
-            <label>Name: </label><br>
-            <input type="text" placeholder="Enter your full name" required><br><br>
-            <label>Email: </label><br>
-            <input type="email" placeholder="Enter your email address" required><br><br>
-            <label>Phone: </label><br>
-            <input type="tel" placeholder="Enter your phone number" required><br><br>
-        </fieldset>
-        <br>
-        <fieldset>
-            <legend><b><font color="#028174">Booking Details</font></b></legend>
-            <label>Room Type: </label><br>
-            <select required>
-                <option value="">Select Room</option>
-                <option>Deluxe - ₹3000 / night</option>
-                <option>Executive - ₹5000 / night</option>
-                <option>Suite - ₹8000 / night</option>
-            </select><br><br>
-            <label>Check-in Date: </label><br>
-            <input type="date" required><br><br>
-            <label>Check-out Date: </label><br>
-            <input type="date" required><br><br>
-            <label>Number of Guests: </label><br>
-            <input type="number" min="1" max="5" placeholder="Enter number of guests" required><br><br>
-        </fieldset>
-        <br>
-        <fieldset>
-            <legend><b><font color="#028174">Additional Information</font></b></legend>
-            <label>Meal Plan: </label><br>
-            <select required>
-                <option value="">Select Meal Plan</option>
-                <option>Breakfast Only</option>
-                <option>Breakfast & Dinner</option>
-                <option>Breakfast, Lunch & Dinner</option>
-            </select><br><br>
-            <label>Special Requests: </label><br>
-            <textarea rows="4" cols="30" placeholder="Enter any special requests or requirements" required ></textarea><br>
-        </fieldset>
-        <br>
-        <fieldset>
-            <legend><b><font color="#028174">Select Payment Method</font></b></legend>
-            <div align="center">
-                <button type="submit" formaction="upi.html">Pay via UPI</button><br><br>
-                <button type="submit" formaction="card.html">Pay via Card</button><br><br>
-                <button type="submit" formaction="netbanking.html">Bank Transfer</button>
+   <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form>
+                    <div class="card p-4 mb-4 shadow-sm">
+                        <h5 class="text-success mb-3">Personal Details</h5>
+
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your full name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Phone</label>
+                            <input type="tel" class="form-control" placeholder="Enter your phone number" required>
+                        </div>
+                    </div>
+                    <div class="card p-4 mb-4 shadow-sm">
+                        <h5 class="text-success mb-3">Booking Details</h5>
+
+                        <div class="mb-3">
+                            <label class="form-label">Room Type</label>
+                            <select class="form-select" required>
+                                <option value="">Select Room</option>
+                                <option>Deluxe - ₹3000</option>
+                                <option>Executive - ₹5000</option>
+                                <option>Suite - ₹8000</option>
+                            </select>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Check-in</label>
+                                <input type="date" class="form-control" required>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Check-out</label>
+                                <input type="date" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Guests</label>
+                            <input type="number" class="form-control" min="1" max="5" required>
+                        </div>
+                    </div>
+                    <div class="card p-4 mb-4 shadow-sm">
+                        <h5 class="text-success mb-3">Additional Info</h5>
+
+                        <div class="mb-3">
+                            <label class="form-label">Meal Plan</label>
+                            <select class="form-select" required>
+                                <option value="">Select Meal Plan</option>
+                                <option>Breakfast Only</option>
+                                <option>Breakfast & Dinner</option>
+                                <option>All Meals</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Special Requests</label>
+                            <textarea class="form-control" rows="3" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="card p-4 mb-5 shadow-sm text-center">
+                        <h5 class="text-success mb-3">Payment Method</h5>
+
+                        <div class="d-grid gap-3">
+
+                            <button class="btn btn-success" formaction="upi.html">
+                                <i class="bi bi-qr-code"></i> Pay via UPI
+                            </button>
+
+                            <button class="btn btn-outline-success" formaction="card.html">
+                                <i class="bi bi-credit-card"></i> Pay via Card
+                            </button>
+
+                            <button class="btn btn-outline-success" formaction="netbanking.html">
+                                <i class="bi bi-bank"></i> Bank Transfer
+                            </button>
+
+                        </div>
+                    </div>
+                </form>
             </div>
-        </fieldset>
-    </form>
+        </div>
+    </div>
     
     <footer class="bg-success text-white text-center p-4">
         <p class="mb-1 fw-bold">Grand Plaza Hotel</p>
