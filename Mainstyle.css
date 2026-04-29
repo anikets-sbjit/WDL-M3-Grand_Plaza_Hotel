@@ -166,19 +166,18 @@ input, select, textarea {
     border: 1px solid #ccc;
     font-size: 0.9rem;
 }
-.qr-box{
-    display:flex;
-    justify-content:center;
-    margin:20px 0;
+.qr-box {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }
-.qr-box img{
-    width:220px;
-    height:220px;
-    object-fit:contain;
-    background:#fff;
-    padding:10px;
-    border-radius:12px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+.qr-box img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
 }
 .carousel img {
     height: 400px;
