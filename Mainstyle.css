@@ -151,21 +151,20 @@ button:hover, .btn:hover {
     height: 200px;
     object-fit: cover;
 }
-
-fieldset{
-    background:#fff;
-    border:none;
-    padding:20px;
-    border-radius:10px;
-    margin-bottom:20px;
-    margin:20px auto;
-    width: 70%;
+fieldset {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    max-width: 600px;
+    margin: 20px auto;
 }
-input,select,textarea{
-    width:100%;
-    padding:10px;
-    border-radius:6px;
-    border:1px solid #ccc;
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
 }
 .qr-box{
     display:flex;
