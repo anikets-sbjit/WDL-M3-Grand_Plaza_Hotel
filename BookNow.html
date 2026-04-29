@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now - Grand Plaza Hotel</title>
+    <link rel="stylesheet" href="Mainstyle.css">
+</head>
+<body bgcolor="#F5F7FA">
+    <div align="center">
+        <h1><font color="#028174">BOOK YOUR STAY</font></h1>
+        <p><font color="#0AB68B">Simple • Fast • Secure Booking</font></p>
+    </div>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="BookNow.html">Book Now</a>
+    </nav>
+
+    <form> 
+        
+        <fieldset>
+            <legend><b><font color="#028174">Personal Details</font></b></legend>
+            <label>Name: </label><br>
+            <input type="text" placeholder="Enter your full name" required><br><br>
+            <label>Email: </label><br>
+            <input type="email" placeholder="Enter your email address" required><br><br>
+            <label>Phone: </label><br>
+            <input type="tel" placeholder="Enter your phone number" required><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b><font color="#028174">Booking Details</font></b></legend>
+            <label>Room Type: </label><br>
+            <select required>
+                <option value="">Select Room</option>
+                <option>Deluxe - ₹3000 / night</option>
+                <option>Executive - ₹5000 / night</option>
+                <option>Suite - ₹8000 / night</option>
+            </select><br><br>
+            <label>Check-in Date: </label><br>
+            <input type="date" required><br><br>
+            <label>Check-out Date: </label><br>
+            <input type="date" required><br><br>
+            <label>Number of Guests: </label><br>
+            <input type="number" min="1" max="5" placeholder="Enter number of guests" required><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b><font color="#028174">Additional Information</font></b></legend>
+            <label>Meal Plan: </label><br>
+            <select required>
+                <option value="">Select Meal Plan</option>
+                <option>Breakfast Only</option>
+                <option>Breakfast & Dinner</option>
+                <option>Breakfast, Lunch & Dinner</option>
+            </select><br><br>
+            <label>Special Requests: </label><br>
+            <textarea rows="4" cols="30" placeholder="Enter any special requests or requirements" required ></textarea><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b><font color="#028174">Select Payment Method</font></b></legend>
+            <div align="center">
+                <button type="submit" formaction="upi.html">Pay via UPI</button><br><br>
+                <button type="submit" formaction="card.html">Pay via Card</button><br><br>
+                <button type="submit" formaction="netbanking.html">Bank Transfer</button>
+            </div>
+        </fieldset>
+    </form>
+    <footer align="center">
+        <p>2026 Grand Plaza Hotel</p>
+        <p>Customer Support:</p>
+        <p>+91 8263902240</p>
+        <p>aniket.grandplazahotel@gmail.com</p>
+    </footer>
+
+</body>
+</html>
