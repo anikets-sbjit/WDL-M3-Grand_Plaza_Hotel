@@ -111,9 +111,9 @@ button,input[type="submit"]{
     box-shadow:0 4px 8px #045951;
 }
 .facilities{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 .card{
     border: none;
@@ -133,39 +133,7 @@ button,input[type="submit"]{
 .card:hover img {
     transform: scale(1.05);
 }
-.room-card{
-    background:#fff;
-    border-radius:12px;
-    margin:20px auto;
-    padding:20px;
-    max-width:900px;
-    box-shadow:0 5px 12px rgba(0,0,0,0.1);
-}
-.room-info{
-    margin-top:12px;
-    line-height:1.5;
-}
-.room-info h2{
-    margin-bottom:6px;
-    font-size: 150%; 
-}
-.room-info p{
-    font-size: 120%; 
-    margin:6px 0;
-}
-.room-info p b{
-    font-size: 120%; 
-    color:#028174;
-}
-.room-info ul{
-    margin:8px 0;
-    padding-left:18px;
-    font-size: 120%; 
-}
-.room-info button{
-    font-size: 120%; 
-    margin-top:20px;
-}
+
 fieldset{
     background:#fff;
     border:none;
