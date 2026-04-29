@@ -60,19 +60,14 @@ img {
     height: auto;
     border-radius: 8px;
 }
-.gallery{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:15px;
-    max-width:800px;
-    margin:auto;
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
 }
-.gallery img{
-    width:100%;
-    aspect-ratio:1/1;
-    object-fit:cover;
-    border-radius:10px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+.gallery img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 footer{
     background:#028174;
@@ -186,10 +181,9 @@ input,select,textarea{
     border-radius:12px;
     box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
-.carousel {
-    overflow: hidden;
-    width: 100%;
-    border-radius: 10px;
+.carousel img {
+    height: 400px;
+    object-fit: cover;
 }
 .slides {
     display: flex;
