@@ -49,28 +49,32 @@
             <p class="text-muted">Fast • Secure • Contactless</p>
         </div>
 
-        <fieldset>
-            <legend><b><font color="#028174">Using UPI</font></b></legend>
-            <div align="center">
-                <h3>Scan QR Code</h3>
-                <div class="qr-box">
-                    <img src="QR.jpeg" width="300">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card p-4 shadow text-center">
+
+                        <h5 class="text-success mb-3">Scan QR Code</h5>
+                        <div class="qr-box mb-3">
+                            <img src="QR.jpeg" class="img-fluid">
+                        </div>
+                        <p class="fw-bold">UPI ID</p>
+                        <p class="text-success fw-bold">grandplazahotel@upi</p>
+                        <p class="text-muted small">
+                            Use any UPI app like Google Pay, PhonePe, or Paytm.
+                        </p>
+                    </div>
+
+                    <form action="success.html" class="text-center mt-4">
+                        <p class="text-muted">After payment, confirm below</p>
+                        <button type="submit" class="btn btn-success w-100">
+                            <i class="bi bi-check-circle"></i> Payment Completed
+                        </button>
+                    </form>
                 </div>
-                <h3>Or Pay via UPI ID</h3>
-                <p>UPI ID: grandplazahotel@upi</p>
-                <p>Open any UPI app like Google Pay, PhonePe, or Paytm and complete your payment.</p>
             </div>
-        </fieldset>
-        <br>
-        <div align="center">
-        <form action="success.html">
-            <p>After completing the payment, click below to confirm.</p>
-            <div>
-                <button type="submit">I Have Completed Payment</button>
-            </div>
-        </form>
         </div>
-        <hr>
+        
         <div align="center">
             <p>Secure Payment Gateway</p>
             <p>No additional charges on UPI payments</p>
