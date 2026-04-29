@@ -18,6 +18,14 @@ body{
         transform: translateY(0);
     }
 }
+section, .section {
+    padding: 60px 0;
+}
+
+
+
+
+
 body>div{
     padding:40px 60px;
 }
