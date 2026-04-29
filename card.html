@@ -49,25 +49,42 @@
             <p class="text-muted">Secure • Fast • Trusted</p>
         </div>
 
-        <form action="success.html">
-        <fieldset>
-            <legend><b><font color="#028174">Enter Card Details</font></b></legend>
-            <label>Card Holder Name:</label><br>
-            <input type="text" name="cardHolderName" required><br><br>
-            <label>Card Number:</label><br>
-            <input type="text" name="cardNumber" required><br><br>
-            <label>Expiry Date:</label><br>
-            <input type="month" name="expiryDate" required><br><br>
-            <label>CVV:</label><br>
-            <input type="password" name="cvv" required><br><br>
-        </fieldset>
-        <br>
-            <div align="center">
-                <p>All transactions are secured with 256-bit SSL encryption.</p>
-                <button type="submit">Pay Now</button>
+       <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form action="success.html">
+                        <div class="card p-4 shadow-sm">
+                            <h5 class="text-success mb-4">Enter Card Details</h5>
+                            <div class="mb-3">
+                                <label class="form-label">Card Holder Name</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Card Number</label>
+                                <input type="text" class="form-control" placeholder="XXXX XXXX XXXX XXXX" required>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Expiry Date</label>
+                                    <input type="month" class="form-control" required>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">CVV</label>
+                                    <input type="password" class="form-control" required>
+                                </div>
+                            </div>
+                            <p class="text-muted small text-center mt-3">
+                                All transactions are secured with 256-bit SSL encryption.
+                            </p>
+                            <button type="submit" class="btn btn-success w-100 mt-2">
+                                <i class="bi bi-lock"></i> Pay Now
+                            </button>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </form>
-        <hr>
+        </div>
 
         <div align="center">
             <p>Secure Payment Gateway</p>
