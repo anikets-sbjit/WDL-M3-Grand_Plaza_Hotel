@@ -69,14 +69,12 @@ img {
     aspect-ratio: 1/1;
     object-fit: cover;
 }
-footer{
-    background:#028174;
-    color: #fff;
-    padding:20px;
-    text-align:center;
-    font-size: 80%;
-    line-height: 1.2;
-    font-weight: 600;
+footer {
+    background: #028174;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.85rem;
 }
 button, input[type="submit"], .btn {
     background: #028174;
@@ -182,24 +180,4 @@ input, select, textarea {
 .carousel img {
     height: 400px;
     object-fit: cover;
-}
-.slides {
-    display: flex;
-    width: 300%;
-    animation: slide 70s infinite;
-}
-.slides img {
-    width: 400px;
-    flex-shrink: 0;
-}
-@keyframes slide {
-    0%   { transform: translateX(0); }
-    100% { transform: translateX(-800px); }
-    00% { transform: translateX(0px); }
-}
-button:hover{
-    background:#0AB68B;
-}
-.navbar a:hover{
-    color:#0AB68B;
 }
