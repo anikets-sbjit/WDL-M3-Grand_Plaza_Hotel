@@ -71,10 +71,12 @@ img {
 }
 footer {
     background: #028174;
-    color: white;
     padding: 20px;
     text-align: center;
     font-size: 0.85rem;
+}
+footer p {
+    color: white;
 }
 button, input[type="submit"], .btn {
     background: #028174;
