@@ -5,8 +5,9 @@
 }
 body{
     font-family:"Segoe UI",sans-serif;
-    background:#dff6f2;
-    color:#333;
+    background: #f8fbfa;
+    color: #333;
+    line-height: 1.6;
     opacity: 0;
     transform: translateY(8px);
     animation: smoothLoad 0.5s ease forwards;
