@@ -148,7 +148,22 @@ button:hover, .btn:hover {
     transform: translateY(-6px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.12);
 }
-
+.room-info {
+    margin-top: 12px;
+}
+.room-info h2 {
+    font-size: 1.3rem;
+}
+.room-info p {
+    font-size: 0.9rem;
+}
+.room-info ul {
+    font-size: 0.9rem;
+    padding-left: 18px;
+}
+.room-info button {
+    margin-top: 15px;
+}
 
 fieldset{
     background:#fff;
